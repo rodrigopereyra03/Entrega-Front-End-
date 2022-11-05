@@ -1,3 +1,4 @@
+
 .botonesTickets{
     margin-top: 50%;
     text-align: center;
@@ -46,20 +47,26 @@
     height: auto;
     margin-top: 20%;
 }
+
 .card{
-    width: 50%;    
+       
     height: auto;
     margin-left: 25%;
     text-align: center;
+    
 }
 .card-1{
     border: 1px solid blue;
+    width: 50%; 
 }
 .card-2{
     border: 1px solid green;
+    width: 50%; 
 }
 .card-3{
     border: 1px solid orange;
+    width: 50%; 
+    margin-bottom: 40px;
 }
 .descripcion-venta{
     text-align: center;
@@ -74,6 +81,9 @@
     margin-bottom: 70%;
 }
 
+.email{
+    margin-top: 10px;
+}
 /*ESTILOS FOOTER*/
 .footer-principal{
     background-color: #212529;;
@@ -103,7 +113,7 @@
 .listas-footer li a:hover{
     font-size: 18px;   
 }
-*/
+
 
 @media (min-width: 992px){
     .header-principal{
@@ -168,6 +178,40 @@
     .listas-navegacion li a:hover{
         color: #fff;
     }
+    .descripcion-venta{
+        text-align: center;
+    }
+
+    .main-container{
+        width: 100%;
+        height: auto;
+        margin-top: 7%;
+        display:block;  
+        overflow:auto;
+    }    
+    .contenedor-tickets{
+        width: 100%;
+        margin: auto;
+    }
+
+    .card{
+        margin-bottom: 40px;
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    .card-1{
+        border: 1px solid blue;
+    }
+
+    .card-2{
+        border: 1px solid green;   
+    }
+    .card-3{
+        border: 1px solid orange;  
+    }
+
+
 
     .footer-principal{
         background-color: #212529;;
