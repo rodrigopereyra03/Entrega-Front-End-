@@ -3,6 +3,9 @@
     margin-top: 50%;
     text-align: center;
 }
+.btn{
+    background-color: #98ca50;
+}
 
 .header-principal{
     background-color: #212529;
@@ -210,7 +213,9 @@
     .card-3{
         border: 1px solid orange;  
     }
-
+    .botonesTickets{
+        margin-bottom: 10%;
+    }
 
 
     .footer-principal{
