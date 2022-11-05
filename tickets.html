@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rodrigo Pereyra</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="estilos.css">
+    
+    <link rel="stylesheet" href="estilosTickets.css">
 </head>
 <body>
 
     <header class="header-principal header-fijo">
         <div class="nav">
             <nav class="nav-logo">
-                <a href=""><img src="img/codoacodo.png" alt="" class="img-logo"></a>
+                <a href="index.html"><img src="img/codoacodo.png" alt="" class="img-logo"></a>
                 <h1 class="titulo-logo"><a href="">Conf Bs As</a></h1>
             </nav>
             <ul class="listas-navegacion">
@@ -58,6 +59,79 @@
           </div>
         </div>
       </nav>
+
+
+
+      
+    <main class="main-container">
+        <div class="card-group">
+            <div class="card card-1">
+              <div class="card-body">
+                <h4 class="card-title">Estudiantes</h4>
+                <p class="card-text">Tiene un descuento</p>
+                <p class="card-text"><b>80%</b></p>
+                <p class="card-text"><small class="text-muted">* presentar documentacion</small></p>
+              </div>
+            </div>
+            <div class="card card-2"> 
+              <div class="card-body">
+                <h5 class="card-title">Trainee</h5>
+                <p class="card-text">Tiene un descuento</p>
+                <p class="card-text"><b>50%</b></p>
+                <p class="card-text"><small class="text-muted">* presentar documentacion</small></p>
+              </div>
+            </div>
+            <div class="card card-3">
+              <div class="card-body">
+                <h5 class="card-title">Junior</h5>
+                <p class="card-text">Tiene un descuento</p>
+                <p class="card-text"><b>15%</b></p>
+                <p class="card-text"><small class="text-muted">* presentar documentacion</small></p>
+              </div>
+            </div>
+          </div>
+          <div class="descripcion-venta">
+            <h7>VENTA</h7>
+            <h2>VALOR DE TICKET $200</h2>
+          </div>
+          <div class="nombreYapellido">
+            <div class="row">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label"></label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo">
+              </div>
+
+              <div class="row gx-2">
+                <div class="col-md mb-3">
+                    <label for="cantidadTickets" class="form-label">Cantidad</label>
+                    <input type="number" class="form-control" placeholder="Cantidad" aria-label="Cantidad" id="cantidadTickets" min="1" required>
+                </div>
+                <div class="col-md mb-3">
+                <label for="categoriaSelect" class="form-label">Categoría</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Categoria</option>
+                    <option value="1">Estudiante</option>
+                    <option value="2">Trainee</option>
+                    <option value="3">Junior</option>
+                  </select>
+                </div>
+                <div class="alert alert-primary mt-2 mb-4" role="alert">
+                    Total a pagar: $ <span id="totalPago" class="align-middle"></span>
+                </div>
+
+        <div class="botonesTickets">
+            <button type="button" class="btn btn-primary btn-lg boton-borrar">BORRAR</button>
+            <button type="button" class="btn btn-secondary btn-lg boton-resumen">RESUMEN</button>
+        </div>
+    </main>
+
 
       <footer class="footer-principal footer-fijo">
         <ul class="listas-footer">

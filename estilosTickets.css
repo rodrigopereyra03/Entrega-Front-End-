@@ -1,0 +1,203 @@
+.botonesTickets{
+    margin-top: 50%;
+    text-align: center;
+}
+
+.header-principal{
+    background-color: #212529;
+    width: 100%;
+    z-index: 2000;
+    position: relative;
+    display: none;
+}
+
+.header-fijo{
+    position: fixed;
+    top: 0;
+    z-index: 4000;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.listas-navegacion{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.conf-bs{
+    color: white;
+    text-decoration: none;
+}
+.conf-bs:hover{
+    color: white;
+}
+
+
+.main-container{
+    width: 100%;
+    height: auto;
+    margin-top: 20%;
+}
+.card{
+    width: 50%;    
+    height: auto;
+    margin-left: 25%;
+    text-align: center;
+}
+.card-1{
+    border: 1px solid blue;
+}
+.card-2{
+    border: 1px solid green;
+}
+.card-3{
+    border: 1px solid orange;
+}
+.descripcion-venta{
+    text-align: center;
+}
+
+.nombreYapellido{
+    margin: 15px;
+}
+.botonesTickets{
+    margin-top: 0%;
+    text-align: center;
+}
+
+/*ESTILOS FOOTER
+.footer-principal{
+    background-color: #212529;;
+    width: 100%;
+    padding: 10px 5px;
+    z-index: 2000;
+    position: relative;
+    }
+.footer-fijo{
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+}
+.listas-footer{
+    margin: 10px 0px;
+    padding: 0px 10px;
+}
+.listas-footer li{
+    margin-bottom: 10px;
+}
+
+.listas-footer li a{
+    color: white;
+    text-decoration: none;
+    }
+
+.listas-footer li a:hover{
+    font-size: 18px;   
+}
+*/
+
+@media (min-width: 992px){
+    .header-principal{
+        display: flex;
+    }
+    .navbar{
+        display: none;
+    }
+
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+
+    }
+    
+    .nav-logo{
+        display: flex;
+        align-items: center;
+        margin-left: 0px;
+    }
+    
+    .titulo-logo{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        padding-left: 0px;
+        padding-bottom: 5px;
+        margin-top: 15px;
+    }
+    
+    
+    .nav-logo a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .img-logo{
+        width: 100px;
+    }
+    
+    .listas-navegacion{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .listas-navegacion li{
+        text-decoration: none;
+        padding: 5px;
+        margin-right: 8px;
+    }
+    
+    .listas-navegacion li a{
+        text-decoration: none;
+        color: rgb(155, 153, 153);
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .listas-navegacion li a:hover{
+        color: #fff;
+    }
+
+    .footer-principal{
+        background-color: #212529;;
+        width: 100%;
+        z-index: 2000;
+        position: relative;
+        }
+    
+        .footer-fijo{
+        position: fixed;
+        bottom: 0;
+        z-index: 4000;
+        }
+    
+        .listas-footer{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        max-width: 1200px;
+        margin: 0 auto;
+        }
+    
+        .listas-footer li a{
+        color: white;
+        text-decoration: none;
+        }
+    
+        .listas-footer li a:hover{
+        color: black;   
+        }
+
+}
