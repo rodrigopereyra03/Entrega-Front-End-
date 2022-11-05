@@ -1,19 +1,18 @@
-// Defino valor de ticket
+
 const valorTicket = 200;
 
-// Defino porcentajes de descuento según categoría
 let descuentoEstudiante = 80;
 let descuentoTrainee    = 50;
 let descuentoJunior     = 15;
 
-// Elementos en variables
+
 let nombre          = document.getElementById("nombre");
 let apellido        = document.getElementById("apellido");
 let mail            = document.getElementById("mail");
 let cantidadTickets = document.getElementById("cantidadTickets");
 let categoria       = document.getElementById("categoriaSelect");
 
-// Función para quitar el estilo de error a los elementos del form
+
 function quitarClaseError() {
     let x = document.querySelectorAll(".form-control, .form-select");
     let i;
