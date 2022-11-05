@@ -71,9 +71,10 @@
 .botonesTickets{
     margin-top: 0%;
     text-align: center;
+    margin-bottom: 70%;
 }
 
-/*ESTILOS FOOTER
+/*ESTILOS FOOTER*/
 .footer-principal{
     background-color: #212529;;
     width: 100%;
